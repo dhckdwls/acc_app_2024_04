@@ -9,10 +9,17 @@ DROP DATABASE IF EXISTS acc_app_2024_04__dev;
 CREATE DATABASE acc_app_2024_04__dev;
 USE acc_app_2024_04__dev;
 
-show tables
+SELECT * FROM `member`
 
-select * from `member`;
+SELECT * FROM song
 
-select * from `song`;
+SELECT * FROM product
 
-select % from `porduct`;
+SELECT * FROM cart_item
+
+SELECT * FROM cash_log
+
+SELECT * FROM order_item
+
+
+
