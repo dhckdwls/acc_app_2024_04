@@ -8,3 +8,11 @@ USE acc_app_2024_04__test;
 DROP DATABASE IF EXISTS acc_app_2024_04__dev;
 CREATE DATABASE acc_app_2024_04__dev;
 USE acc_app_2024_04__dev;
+
+show tables
+
+select * from `member`;
+
+select * from `song`;
+
+select % from `porduct`;
