@@ -18,6 +18,10 @@ public class RebateService {
   private final OrderService orderService;
   private final RebateOrderItemRepository rebateOrderItemRepository;
 
+  public List<RebateOrderItem> getRebateOrderItems(){
+    return rebateOrderItemRepository.findAll();
+  }
+
   public void makeDate(String yearMonth) {
     int monthEndDay = Ut.date.getEndDayOf(yearMonth);
 
